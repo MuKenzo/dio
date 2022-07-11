@@ -1,0 +1,57 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: rgb(177, 225, 255);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+#subtrair {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    background-color: rgb(241, 214, 214);
+    color: crimson;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#adicionar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid green;
+    background-color: rgb(216, 255, 206);
+    color: green;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
