@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./css/tarefas.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <h2>Dicas para Uso</h2>
+    <ol>
+        <p><strong>1.</strong> Digite a tarefa que você precisa fazer e clique em <strong>Adicionar</strong> para inserir na sua Lista de Tarefas.</p>
+        <p><strong>2.</strong> Para marcar uma tarefa como concluída, basta clicar no quadrado à esquerda da Tarefa.</p>
+    </ol>
+    <div id="lista">
+        <form id="tarefa_form">
+            <input id="input_tarefa" name="tarefa" type="text" placeholder="Digite aqui sua Tarefa">
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+    <div id="tarefas"></div>
+    <script src="./js/tarefas.js"></script>
+</body>
+</html>
